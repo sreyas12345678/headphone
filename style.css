@@ -1,0 +1,84 @@
+.overlay{
+    top: 30%;
+    position: absolute;
+    right:65%;
+}
+
+.overlay button{
+    border-radius: 6rem;
+    margin-top: 40px;
+}
+
+*{
+    font-family: "Mukta", sans-serif;
+}
+
+.sed{
+    align-content: center ;
+    text-align: center;
+    background-color: rgb(252, 205, 52);
+    color: aliceblue;
+    height: 150px;
+}
+.card-img-top{
+    height: 240px;
+    width: 240px;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    
+}
+
+.card{
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: justify;
+    
+}
+.row img{
+    height: 240px;
+    width: 280px;
+    
+}
+
+.row img:hover{
+    cursor: pointer;
+    scale: 1.10;
+}
+
+
+.custom-button{
+    margin-left:1400px ;
+    color: aliceblue;
+    border-radius: 10rem;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+.reasons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.reason {
+    text-align: center;
+    max-width: 200px;
+}
+.reason-number {
+    font-size: 2em;
+    color: orange;
+}
+.reason-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.learn-more {
+    color: orange;
+    text-decoration: none;
+}
